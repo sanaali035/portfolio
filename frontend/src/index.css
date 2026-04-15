@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #0f172a;
+  border-bottom: 1px solid #1f2937;
+}
+
+nav a {
+  color: #f9fafb;
+  text-decoration: none;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  padding: 4rem 0;
+  border-bottom: 1px solid #1f2937;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
