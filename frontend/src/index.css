@@ -8,29 +8,39 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111827;
-  color: #f9fafb;
+  font-family: "Georgia", serif;
+  background: #e4c3ad;
+  color: #472d30;
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  height: 100vh;
+  width: 140px;
   display: flex;
-  gap: 1rem;
-  padding: 1rem 2rem;
-  background: #0f172a;
-  border-bottom: 1px solid #1f2937;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 1rem;
+  background: #723d46;
 }
 
 nav a {
   color: #f9fafb;
   text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateX(4px);
 }
 
 main {
-  max-width: 900px;
-  margin: 0 auto;
+  margin-left: 160px;
   padding: 2rem;
 }
 
@@ -39,6 +49,7 @@ section {
   border-bottom: 1px solid #1f2937;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-top: 0;
 }

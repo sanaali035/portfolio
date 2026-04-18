@@ -1,14 +1,21 @@
-function Navbar() {
+function NavBar() {
+  const links = [
+    { href: "#about", label: "About" },
+    { href: "#experience", label: "Experience" },
+    { href: "#projects", label: "Projects" },
+    { href: "#books", label: "Books" },
+    { href: "#how-to", label: "How It's Built" },
+  ];
+
   return (
     <nav>
-      <a href="#home">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#books">Books</a>
-      <a href="#about">About</a>
-      <a href="#how-to">How It's Built</a>
+      {links.map((link) => (
+        <a key={link.href} href={link.href}>
+          {link.label}
+        </a>
+      ))}
     </nav>
   );
 }
 
-export default Navbar;
+export default NavBar;
