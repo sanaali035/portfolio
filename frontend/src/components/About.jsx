@@ -1,8 +1,8 @@
 function About() {
   return (
     <section id="About">
-      <h1>Sana Ali</h1>
-      <h2>Computer Science Graduate - Aspiring Software Engineer</h2>
+      <h1>Sana Sahar Ali (she/her)</h1>
+      <img src="/profpic.png" alt="Sana Ali" className="profile-pic" />
       <p>
         Hi! I’m a Computer Science graduate from Northeastern University with a concentration in Artificial Intelligence, 
         with experience in full-stack development, testing, and automation. I’ve built and worked on systems ranging from 
