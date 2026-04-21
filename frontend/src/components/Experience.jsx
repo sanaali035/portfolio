@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <section id="experience">
-      <h2>Experience</h2>
+      <h2> Work Experience</h2>
 
       <h3> Teaching Assistant - Northeastern University</h3>
       <h4> Khoury College of Computer Science • Boston, MA</h4>
