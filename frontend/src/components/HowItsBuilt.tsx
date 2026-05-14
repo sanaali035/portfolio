@@ -1,4 +1,4 @@
-function Howto() {
+function HowItsBuilt() {
   return (
     <section id="how-to">
       <h2>How It’s Built</h2>
@@ -10,4 +10,4 @@ function Howto() {
   );
 }
 
-export default Howto;
+export default HowItsBuilt;

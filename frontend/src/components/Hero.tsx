@@ -1,4 +1,4 @@
-function About() {
+function Hero() {
   return (
     <section id="About">
       <h1>Sana Sahar Ali (she/her)</h1>
@@ -18,4 +18,4 @@ function About() {
   );
 }
 
-export default About;
+export default Hero;
