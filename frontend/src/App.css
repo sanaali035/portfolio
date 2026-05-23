@@ -1,8 +1,14 @@
 .hero-section {
   display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 72px 72px 48px;
+}
+
+.hero-main {
+  display: flex;
   align-items: center;
   gap: 48px;
-  padding: 72px 72px 48px
 }
 
 .hero-photo-card {
@@ -20,10 +26,6 @@
   height: 100%;
   object-fit: cover;
   display: block;
-/*width: 200px;
-  height: 250px;
-  object-fit: cover;   
-  border-radius: 10px; */
 }
 
 .hero-content {
@@ -38,14 +40,25 @@
   font-weight: 800;
 }
 
-.hero-content h2 {
-  margin: 14px 0 
+.hero-content h3 {
+  margin: 14px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #5b3b43;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #472d30;
+  margin-bottom: 28px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 14px;
   align-items: center;
+  margin-bottom: 28px;
 }
 
 .hero-btn {
@@ -72,3 +85,33 @@
   border-color: #723d46;
 }
 
+.tech-stack-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.tech-pill {
+  padding: 11px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  background: #ead3c4;
+  color: #472d30;
+
+  border: 1px solid rgba(114, 61, 70, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.tech-pill:hover {
+  transform: translateY(-2px);
+  border-color: #723d46;
+  background: #f0dbcf;
+}
