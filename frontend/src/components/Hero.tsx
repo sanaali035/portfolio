@@ -27,7 +27,7 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="hero-btn">Resume</a>
+            <a href="/Sana_Ali_2026.pdf" className="hero-btn">Resume</a>
 
             <a
               href="https://github.com/sanaali035"
