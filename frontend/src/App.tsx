@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import HowItsBuilt from "./components/HowItsBuilt";
 import Books from "./components/Books";
+import './App.css';
 
 function App() {
   return (
