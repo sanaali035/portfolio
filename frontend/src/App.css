@@ -115,3 +115,40 @@
   border-color: #723d46;
   background: #f0dbcf;
 }
+
+.projects-section {
+  padding: 48px 72px;
+}
+
+.shelf-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.shelf-header h2 {
+  margin: 0;
+  font-size: 48px;
+  color: #3b2028;
+  white-space: nowrap;
+}
+
+.shelf-line {
+  height: 1px;
+  width: 100%;
+  background: rgba(71, 45, 48, 0.35);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.project-card {
+  background: #ead3c4;
+  border: 1px solid rgba(114, 61, 70, 0.25);
+  border-radius: 18px;
+  padding: 24px;
+}
