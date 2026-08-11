@@ -21,9 +21,11 @@ function Hero() {
           </h4>
 
           <p>
-            Hi! I’m interested in building software that feels useful and intentional. 
+            Hi, welcome to my site!
+            I’m interested in building software that feels useful and intentional. 
             My work blends engineering, automation, and problem solving across 
-            full-stack and applied AI projects.
+            full-stack and applied AI projects. Check out my collection and outside
+            interests! Enjoy :D
           </p>
 
           <div className="hero-buttons">
