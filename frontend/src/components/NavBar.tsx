@@ -1,6 +1,6 @@
 function NavBar() {
   const links = [
-    { href: "#about", label: "About" },
+    { href: "#profile", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
     { href: "#books", label: "Books" },
