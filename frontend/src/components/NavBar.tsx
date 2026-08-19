@@ -1,20 +1,16 @@
 function NavBar() {
-  const links = [
-    { href: "#profile", label: "About" },
-    { href: "#projects", label: "Projects" },
-    { href: "#experience", label: "Experience" },
-    { href: "#books", label: "Books" },
-    { href: "#how-to", label: "How It's Built" },
-  ];
-
   return (
-    <nav>
-      {links.map((link) => (
-        <a key={link.href} href={link.href}>
-          {link.label}
-        </a>
-      ))}
-    </nav>
+    <div className="nav-wrapper">
+      <div className="menu-trigger">☰</div>
+
+      <nav className="sidebar">
+        <a href="#profile">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#books">Books</a>
+        <a href="#how-to">How It's Built</a>
+      </nav>
+    </div>
   );
 }
 
