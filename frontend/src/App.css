@@ -1,19 +1,19 @@
 .hero-section {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 72px 72px 48px;
+  gap: 28px;
+  padding: 48px 56px 36px;
 }
 
 .hero-main {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 36px;
 }
 
 .hero-photo-card {
-  width: 280px;
-  height: 360px;
+  width: 250px;
+  height: 320px;
   border-radius: 18px;
   background: #d9a28f;
   border: 1px solid rgba(90, 45, 55, 0.25);
@@ -34,7 +34,7 @@
 
 .hero-content h1 {
   margin: 0;
-  font-size: 52px;
+  font-size: 46px;
   line-height: 1;
   color: #3b2028;
   font-weight: 800;
@@ -42,23 +42,23 @@
 
 .hero-content h3 {
   margin: 14px 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #5b3b43;
 }
 
 .hero-content p {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.5;
   color: #472d30;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 14px;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .hero-btn {
@@ -87,27 +87,30 @@
 
 .tech-stack-row {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
 }
 
 .tech-pill {
-  padding: 11px 22px;
-  border-radius: 999px;
+  flex: 0 0 auto;
   text-decoration: none;
 
-  font-size: 15px;
+  min-width: 86px;
+  text-align: center;
+
+  padding: 9px 16px;
+  border-radius: 999px;
+
+  font-size: 14px;
   font-weight: 500;
 
   background: #ead3c4;
   color: #472d30;
 
   border: 1px solid rgba(114, 61, 70, 0.25);
-
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    background 0.2s ease;
 }
 
 .tech-pill:hover {
@@ -124,12 +127,12 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 }
 
 .shelf-header h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 42px;
   color: #3b2028;
   white-space: nowrap;
 }
@@ -193,7 +196,7 @@
 }
 
 .experience-section {
-  padding: 48px 72px;
+  padding: 36px 56px;
 }
 
 .experience-grid {
@@ -236,4 +239,50 @@
   margin: 0;
   color: #472d30;
   line-height: 1.6;
+}
+
+.interests-section {
+  padding: 36px 56px;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.interest-card {
+  min-height: 180px;
+  padding: 24px 16px;
+
+  background: #ead3c4;
+  border: 1px solid rgba(114, 61, 70, 0.25);
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-4px);
+  background: #f0dbcf;
+}
+
+.interest-card h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.interest-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #6f4b52;
 }

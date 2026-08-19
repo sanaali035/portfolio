@@ -7,7 +7,7 @@ function NavBar() {
         <a href="#profile">About</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#books">Books</a>
+        <a href="#interests">Interests</a>
         <a href="#how-to">How It's Built</a>
       </nav>
     </div>
