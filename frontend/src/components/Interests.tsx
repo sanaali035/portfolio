@@ -1,3 +1,5 @@
+import "./Interests.css"
+
 function Interests() {
   return (
     <section className="interests-section" id="interests">
