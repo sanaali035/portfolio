@@ -6,11 +6,66 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --background: #e4c3ad;
+  --text-color: #472d30;
+  --nav-background: #723d46;
+  --nav-text: white;
+  --nav-hover: rgba(255, 255, 255, 0.15);
+
+  --photo-background: #d9a28f;
+  --heading-color: #3b2028;
+  --subheading-color: #5b3b43;
+
+  --button-background: #e8cdbd;
+  --card-background: #ead3c4;
+  --hover-background: #f0dbcf;
+
+  --border-strong: rgba(114, 61, 70, 0.45);
+  --border-soft: rgba(114, 61, 70, 0.25);
+  --photo-border: rgba(90, 45, 55, 0.25);
+
+  --accent-color: #723d46;
+
+  --experience-date-color: #7b5660;
+
+  --interest-card-p: #6f4b52;
+}
+
+[data-theme="dark"] {
+  --background: #211519;
+
+  --text-color: #c9a9a4;
+
+  --nav-background: #3d2530;
+  --nav-text: #e6c9c2;
+  --nav-hover: rgba(255, 255, 255, 0.12);
+
+  --photo-background: #54332c;
+
+  --heading-color: #f0d3cd;
+  --subheading-color: #c99099;
+
+  --button-background: #33232a;
+  --card-background: #2b1d23;
+  --hover-background: #472f37;
+
+  --border-strong: rgba(216, 184, 179, 0.35);
+  --border-soft: rgba(216, 184, 179, 0.18);
+  --photo-border: rgba(216, 184, 179, 0.20);
+
+  --accent-color: #b8808b;
+
+  --experience-date-color: #a98189;
+  --interest-card-p: #b1888f;
+}
+
 body {
   margin: 0;
   font-family: "Gill Sans Extrabold", sans-serif;
-  background: #e4c3ad;
-  color: #472d30;
+
+  background: var(--background);
+  color: var(--text-color);
 }
 
 .nav-wrapper {
@@ -21,7 +76,7 @@ body {
   width: 100px;
   height: 100vh;
 
-  background: #723d46;
+  background: var(--nav-background);
 
   display: flex;
   flex-direction: column;
@@ -40,7 +95,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  color: white;
+  color: var(--nav-text);
   font-size: 24px;
 
   cursor: pointer;
@@ -79,7 +134,7 @@ body {
 
 
 .sidebar a {
-  color: #f9fafb;
+  color: var(--nav-text);
   text-decoration: none;
 
   font-size: 14px;
@@ -95,7 +150,7 @@ body {
 }
 
 .sidebar a:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--nav-hover);
   transform: translateX(3px);
 }
 

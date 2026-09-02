@@ -12,8 +12,8 @@
   min-height: 180px;
   padding: 24px 16px;
 
-  background: #ead3c4;
-  border: 1px solid rgba(114, 61, 70, 0.25);
+  background:var(--card-background);
+  border: 1px solid var(--border-soft);
   border-radius: 18px;
 
   display: flex;
@@ -30,7 +30,7 @@
 
 .interest-card:hover {
   transform: translateY(-4px);
-  background: #f0dbcf;
+  background: var(--hover-background);
 }
 
 .interest-card h3 {
@@ -41,5 +41,5 @@
 .interest-card p {
   margin: 0;
   font-size: 14px;
-  color: #6f4b52;
+  color: var(--interest-card-p);
 }
