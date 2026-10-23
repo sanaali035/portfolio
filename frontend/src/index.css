@@ -33,29 +33,26 @@ html {
 }
 
 [data-theme="dark"] {
-  --background: #211519;
+  --background: #1b1115;
 
   --text-color: #c9a9a4;
-
   --nav-background: #3d2530;
   --nav-text: #e6c9c2;
   --nav-hover: rgba(255, 255, 255, 0.12);
 
   --photo-background: #54332c;
-
   --heading-color: #f0d3cd;
   --subheading-color: #c99099;
 
-  --button-background: #33232a;
-  --card-background: #2b1d23;
-  --hover-background: #472f37;
+  --button-background: #3d2931;
+  --card-background: #342229;
+  --hover-background: #4a313a;
 
   --border-strong: rgba(216, 184, 179, 0.35);
   --border-soft: rgba(216, 184, 179, 0.18);
   --photo-border: rgba(216, 184, 179, 0.20);
 
   --accent-color: #b8808b;
-
   --experience-date-color: #a98189;
   --interest-card-p: #b1888f;
 }
